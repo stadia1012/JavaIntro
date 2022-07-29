@@ -1,7 +1,7 @@
 package pkg1.javaintro;
 
 public class L2_VariableExam {
-
+//				< 변수 >
 	public static void main(String[] args) {
 		int count;
 		count = 10;

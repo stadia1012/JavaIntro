@@ -1,7 +1,7 @@
 package pkg1.javaintro;
 
 public class L3_ConstantExam_Exam {
-
+//				< 상수 >
 	public static void main(String[] args) {
 /*
  * 원의 둘레, 반지름 * 2 * 원주율을 구하는 코드를 짜려 합니다.

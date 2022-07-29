@@ -1,12 +1,11 @@
 package pkg1.javaintro;
 
 public class L4_PrimitiveDataType_Exam {
-/*           기본형[원시형] 타입
+/*           < 기본형[원시형] 타입 >
 	논리형_boolean : 1byte
 	문자형_char : 2byte
 	정수형 : byte(1), short(2), char(2), int(4), long(8)
 	실수형 : float(4), double(8)
-	
 */
 	public static void main(String[] args) {
 		boolean isFun = true;  // true/false 이외 값 입력 시 오류
