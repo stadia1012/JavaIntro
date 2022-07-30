@@ -29,8 +29,9 @@ public class L5_TypeCasting {
 		/* 문자를 int에 강제로 담으면?*/
 		char charValue = 'X';
 		int intValue2 = (int) charValue;
-		System.out.println(intValue2);  // 88
+		System.out.println(intValue2);  // 88. ASCII 코드 출력
 		
+		/* String을 int에 담으면?*/
 		String stringValue = "abcABC";
 //		int intValue3 = (int) stringValue;  // "can not cast from String to int"
 //		System.out.println = intValue3;
