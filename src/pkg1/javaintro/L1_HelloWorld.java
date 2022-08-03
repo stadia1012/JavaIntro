@@ -17,4 +17,6 @@ public class L1_HelloWorld {
 	Hello Java
 
  -> print와 println 차이 : ln은 줄바꿈됨 (개행문자가 붙는다)
+ 
+ 	*printf : 서식이 있는 출력
  */

@@ -19,19 +19,19 @@ public class L5_TypeCasting {
 		float y3 = x3;  // long(8)이 float(4)보다 byte 크기가 더 큰데도 가능.
 		System.out.println(y3);  // 10.0
 		
-		/* 실수를 int에 강제로 담으면?*/
+		/* 실수를 int에 강제로 담으면? */
 		double doubleValue = 123.456;
 		int intValue = (int) doubleValue;
 		System.out.println(intValue);  // 123  -> 소수점 아래는 삭제.
 		
 		System.out.println(doubleValue);  // 123.456 -> 기존 변수엔 영향 없음
 		
-		/* 문자를 int에 강제로 담으면?*/
+		/* char를 int로 강제 형변환? */
 		char charValue = 'X';
 		int intValue2 = (int) charValue;
 		System.out.println(intValue2);  // 88. ASCII 코드 출력
 		
-		/* String을 int에 담으면?*/
+		/* String을 int로 강제 형변환? */
 		String stringValue = "abcABC";
 //		int intValue3 = (int) stringValue;  // "can not cast from String to int"
 //		System.out.println = intValue3;
