@@ -11,10 +11,12 @@ public class L1_HelloWorld {
 		
 		int birthYear = 1996;
 		String myName = "stadia";
+//		printf : 서식이 있는 출력
 		System.out.printf("나는 %d년생 %s입니다.", birthYear, myName);  // 나는 1996년생 stadia입니다.
 	}
-
 }
+
+
 /* 결과 : 
 
 	Hello WorldHello WorldHello Java
