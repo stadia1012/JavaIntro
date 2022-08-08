@@ -16,7 +16,6 @@ public class L1_HelloWorld {
 	}
 }
 
-
 /* 결과 : 
 
 	Hello WorldHello WorldHello Java
