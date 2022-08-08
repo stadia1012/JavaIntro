@@ -37,7 +37,6 @@ public class L6_Operator {
 		// 나머지 연산자
 		System.out.println(i % j);  // 1
 		
-		
 	}
 
 }
