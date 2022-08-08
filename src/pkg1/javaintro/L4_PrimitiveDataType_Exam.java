@@ -15,6 +15,7 @@ public class L4_PrimitiveDataType_Exam {
 		long bing = 199610121122l;  // Long형은 끝에 반드시 L/l 입력해야.
 		float f = 3.15f;  // 반드시 끝에 F/f 입력
 		double d = 31415926535.5;  // **d 안붙여도 됨
+		short s = 12;  // 
 
 //		long, float은 l, f를 붙여줘야 한다.
 	}
