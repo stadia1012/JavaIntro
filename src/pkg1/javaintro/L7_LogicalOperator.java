@@ -14,7 +14,24 @@ public class L7_LogicalOperator {
 	대입연산자 =, *=, /=, %=, +=, -=
  */
 	public static void main(String[] args) {
-
+		int i1 = 2;
+		int i2 = 3;
+		int i3 = 5;
+		
+		System.out.println( i1 + i2 * i3 );  // 17  -> 괄호 및 사칙연산의 우선순위가 적용
+		System.out.println( i1 > i2 || i1 < i3 );  // true
+		System.out.println( i1 > i2 && i1 < i3 );  // false
+//		->> > 논리연산자 우선순위가 더 낮음
+		
+		
+		System.out.println( "\n배타적 논리합(XOR)" );
+		boolean b1 = true;
+		boolean b2 = false;
+		boolean b3 = true;
+		
+		System.out.println( b1^b2 );  // true    -> 두 값이 달라야 true 
+		System.out.println( b1^b3 );  // false   -> 둘 다 true 이면 false
+		
 	}
 
 }
