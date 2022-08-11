@@ -21,7 +21,7 @@ public class L7_LogicalOperator {
 		System.out.println( i1 + i2 * i3 );  // 17  -> 괄호 및 사칙연산의 우선순위가 적용
 		System.out.println( i1 > i2 || i1 < i3 );  // true
 		System.out.println( i1 > i2 && i1 < i3 );  // false
-//		->> > 논리연산자 우선순위가 더 낮음
+//		->> 논리연산자 우선순위가 더 낮음
 		
 		
 		System.out.println( "\n배타적 논리합(XOR)" );
@@ -29,8 +29,11 @@ public class L7_LogicalOperator {
 		boolean b2 = false;
 		boolean b3 = true;
 		
-		System.out.println( b1^b2 );  // true    -> 두 값이 달라야 true 
+		System.out.println( b1^b2 );  // true    -> 두 값이 다른 경우만 true 
 		System.out.println( b1^b3 );  // false   -> 둘 다 true 이면 false
+		
+		System.out.println("\n부정연산자 !");
+		System.out.println(!b1);  // false
 		
 	}
 

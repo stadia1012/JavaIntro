@@ -18,10 +18,9 @@ public class L8_If {
 		int i1 = 12;
 		
 		if ( i1 % 3 == 0 ) {
-			System.out.println("3의 배수가 맞습니다.");
+			System.out.printf("%d는 3의 배수가 맞습니다.", i1);
 		} else {
-			System.out.println("3의 배수가 아닙니다.");
+			System.out.printf("%d는 3의 배수가 아닙니다.", i1);
 		}
 	}
-
 }
