@@ -21,6 +21,6 @@ public class L8_If {
 			System.out.printf("%d는 3의 배수가 맞습니다.", i1);
 		} else {
 			System.out.printf("%d는 3의 배수가 아닙니다.", i1);
-		}
+		} 
 	}
 }
