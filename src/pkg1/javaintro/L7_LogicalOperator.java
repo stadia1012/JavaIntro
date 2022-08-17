@@ -35,6 +35,9 @@ public class L7_LogicalOperator {
 		System.out.println("\n부정연산자 !");
 		System.out.println(!b1);  // false
 		
+//		실습
+//		int형 변수 age가 19 이하거나 60 이상이라면 isDiscount에 true를, 아니라면 isDiscount에 false를 저장
+		int age = 0;
 	}
 
 }
