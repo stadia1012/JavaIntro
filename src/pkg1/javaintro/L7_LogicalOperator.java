@@ -38,6 +38,12 @@ public class L7_LogicalOperator {
 //		실습
 //		int형 변수 age가 19 이하거나 60 이상이라면 isDiscount에 true를, 아니라면 isDiscount에 false를 저장
 		int age = 0;
+		boolean isDiscount;
+		if (age <= 19 || age >= 60) {
+			isDiscount = true;
+		} else {
+			isDiscount = false;
+		}
 	}
 
 }
