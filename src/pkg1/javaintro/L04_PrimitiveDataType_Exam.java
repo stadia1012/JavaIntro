@@ -1,6 +1,6 @@
 package pkg1.javaintro;
 
-public class L4_PrimitiveDataType_Exam {
+public class L04_PrimitiveDataType_Exam {
 /*           < 기본형[원시형] 타입 >
 	논리형_boolean : 1byte
 	문자형_char : 2byte

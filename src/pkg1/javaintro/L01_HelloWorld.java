@@ -1,6 +1,6 @@
 package pkg1.javaintro;
 
-public class L1_HelloWorld {
+public class L01_HelloWorld {
 //			< 클래스 생성과 console 출력 >
 	public static void main(String[] args) {
 		System.out.print("Hello World");

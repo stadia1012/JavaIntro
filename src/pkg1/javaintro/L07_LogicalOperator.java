@@ -1,6 +1,6 @@
 package pkg1.javaintro;
 
-public class L7_LogicalOperator {
+public class L07_LogicalOperator {
 //		< 논리연산자 및 연산자 우선순위 >
 /*
  	**연산자 우선순위 순서**
@@ -35,7 +35,7 @@ public class L7_LogicalOperator {
 		System.out.println("\n부정연산자 !");
 		System.out.println(!b1);  // false
 		
-//		#실습1
+//		# 실습1
 //		int형 변수 age가 19 이하거나 60 이상이라면 isDiscount에 true를, 아니라면 isDiscount에 false를 저장
 		int age = 0;
 		boolean isDiscount;
@@ -44,8 +44,9 @@ public class L7_LogicalOperator {
 		} else {
 			isDiscount = false;
 		}
+		System.out.println("\n실습1\n" + isDiscount);
 		
-//		#실습2
+//		# 실습2
 //		age가 20대를 나타낸다면 isTwenties에 true를, 그렇지 않으면 false를 저장
 		boolean isTwenties;
 		if (age >= 20 && age <= 29) {
@@ -53,6 +54,7 @@ public class L7_LogicalOperator {
 		} else {
 			isTwenties = false;
 		}
+		System.out.println("\n실습2\n" + isTwenties);
 	}
 
 }

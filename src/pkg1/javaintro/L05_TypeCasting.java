@@ -1,6 +1,6 @@
 package pkg1.javaintro;
 
-public class L5_TypeCasting {
+public class L05_TypeCasting {
 /*			< 기본형의 형변환 >
 	묵시적 형변환 관계 (좌항은 우항에 담길 수 있다.)
 	byte < short,char < int < long < float < double

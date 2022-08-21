@@ -1,6 +1,6 @@
 package pkg1.javaintro;
 
-public class L6_Operator {
+public class L06_Operator {
 //			< 산술연산자 >
 	/* 부호 연산자 ( + - )
 	 * 산술 연산자 ( + - * / %
@@ -9,7 +9,7 @@ public class L6_Operator {
 	 * 부호연산자와 증감연산자는 단항연산자
 	 */
 	public static void main(String[] args) {
-		// 단항연산자 -는 부호를 반전 시킴
+//		# 단항연산자 -는 부호를 반전 시킴
 		System.out.println("\n단항연산자");
 		int i1 = -5;
 		System.out.println(i1);  // -5
@@ -17,7 +17,7 @@ public class L6_Operator {
 		System.out.println(i2);  // 5
 		
 		
-		// 증감연산자 연산 순서
+//		# 증감연산자 연산 순서
 		System.out.println("\n증감연산자");
 		int i3 = 5;
 		int i4 = ++i3;

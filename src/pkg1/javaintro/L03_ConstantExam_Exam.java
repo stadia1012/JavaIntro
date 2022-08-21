@@ -1,6 +1,6 @@
 package pkg1.javaintro;
 
-public class L3_ConstantExam_Exam {
+public class L03_ConstantExam_Exam {
 //				< 상수 >
 	public static void main(String[] args) {
 /*
