@@ -1,4 +1,5 @@
 package pkg1.javaintro;
+import java.util.Scanner;
 
 public class L10_While {
 //			< While문 >
@@ -29,5 +30,13 @@ public class L10_While {
 			}
 			i3++;
 		}
+		
+//		# do while문
+		int i4 = 0;
+		Scanner scan = new Scanner(System.in);
+		
+		do {
+			
+		}while(i4 != 10);
 	}
 }
