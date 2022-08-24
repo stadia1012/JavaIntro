@@ -31,12 +31,16 @@ public class L10_While {
 			i3++;
 		}
 		
-//		# do while문
+//		# do while문 : 조건과 상관없이 한번은 실행하고 싶을 때 
 		int i4 = 0;
 		Scanner scan = new Scanner(System.in);
 		
 		do {
-			
-		}while(i4 != 10);
+			System.out.println("값을 입력해주세요.");
+			i4 = scan.nextInt();  // 콘솔로 입력 받기
+			System.out.println("입력받은 값 : " + i4);
+		} while(i4 != 10);
+		
+		System.out.println("반복 종료");
 	}
 }
