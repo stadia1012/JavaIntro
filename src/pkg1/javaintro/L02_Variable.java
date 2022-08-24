@@ -1,6 +1,6 @@
 package pkg1.javaintro;
 
-public class L02_VariableExam {
+public class L02_Variable {
 //				< 변수 >
 	public static void main(String[] args) {
 		int count;
