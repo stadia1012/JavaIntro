@@ -4,7 +4,7 @@ import java.util.Calendar;
 public class L09_Switch {
 //			< switch 문 >
 	public static void main(String[] args) {
-//		# switch문에 문자열도 가능
+//		# JDK 1.7부터 switch문에 문자열도 가능
 		String str1 = "A1";
 		
 		switch(str1) {
