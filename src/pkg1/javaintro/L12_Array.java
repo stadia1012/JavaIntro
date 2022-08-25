@@ -1,5 +1,7 @@
 package pkg1.javaintro;
 
+import java.util.Arrays;
+
 public class L12_Array {
 //			  < 배열 >
 //			배열은 기본 데이터 타입이 아닌 참조형 타입
@@ -48,11 +50,16 @@ public class L12_Array {
 		
 		
 //		# Arrays.copyOf() 활용해 배열 길이 늘리기
-		String[] strArr =  new String(4);
+		System.out.println("\n배열 늘리기");
+		String[] strArr1 = {"A", "B", "C"};
+		String[] newArr1 = Arrays.copyOf( strArr1, strArr1.length + 1 );  // ( 복사할 배열, 배열 길이)
 		
+		newArr1[3] = "D";
 		
-		
-		
-		
+		for ( int i = 0; i < newArr1.length; i++ ) {
+			System.out.print( newArr1[i] );  // ABCD
+		}
+//		위 방법 말고 배열을 출력하는 법 : Arrays.toString()
+		System.out.println("\n" + Arrays.toString(newArr1));
 	}
 }
