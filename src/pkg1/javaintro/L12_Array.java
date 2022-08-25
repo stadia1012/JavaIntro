@@ -26,14 +26,33 @@ public class L12_Array {
 /*		# 배열 테스트
 		int[] array4 = new int[3] {1, 2, 3}; 
 		배열 길이와 구성요소 동시 선언은 불가
+		
+		array4.length = 5; 한 번 선언된 배열의 길이 늘리기는 불가능
 */
 		
-//		# 반복문 이용해 배열에 값 넣기
+//		# 반복문 이용해 배열에 값 넣기 (1부터 100)
+		System.out.println("\n# 반복문 이용해 배열에 값 넣기");
 		int[] array5 = new int[100];
 		for( int i = 0; i < array5.length; i++ ) {
 			array5[i] = i + 1;
 		}
 		System.out.println(array5[98]);  // 99
+		
+//		# 1부터 100까지 더하기 - 배열 값 꺼내기
+		System.out.println("\n# 1부터 100까지 더하기");
+		int sum = 0;
+		for( int i = 0; i < array5.length; i++ ) {
+			sum += array5[i];
+		}
+		System.out.println(sum);  // 5050
+		
+		
+//		# Arrays.copyOf() 활용해 배열 길이 늘리기
+		String[] strArr =  new String(4);
+		
+		
+		
+		
 		
 	}
 }
