@@ -13,7 +13,8 @@ public class L12_Array {
 		array1[2] = 3;
 		array1[3] = 4;
 		
-		System.out.println(array1);  // [I@7d6f77cc
+		System.out.println(array1);
+//		[I@7d6f77cc  -> 그냥 print하면 안 됨 Arrays.toString으로 가능
 		System.out.println(array1[2]);  // 3
 		
 //		# 배열 선언법 2
@@ -29,7 +30,7 @@ public class L12_Array {
 		int[] array4 = new int[3] {1, 2, 3}; 
 		배열 길이와 구성요소 동시 선언은 불가
 		
-		array4.length = 5; 한 번 선언된 배열의 길이 늘리기는 불가능
+		array3.length = 5; 한 번 선언된 배열의 길이 늘리기는 불가능
 */
 		
 //		# 반복문 이용해 배열에 값 넣기 (1부터 100)
@@ -50,7 +51,7 @@ public class L12_Array {
 		
 		
 //		# Arrays.copyOf() 활용해 배열 길이 늘리기
-		System.out.println("\n배열 늘리기");
+		System.out.println("\n# 배열 늘리기");
 		String[] strArr1 = {"A", "B", "C"};
 		String[] newArr1 = Arrays.copyOf( strArr1, strArr1.length + 1 );  // ( 복사할 배열, 배열 길이)
 		
