@@ -33,7 +33,5 @@ public class L13_TwoDimensionalArray {
 			}
 			System.out.println("");
 		}
-		
-		
 	}
 }
