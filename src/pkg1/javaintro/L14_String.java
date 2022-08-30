@@ -1,7 +1,7 @@
 package pkg1.javaintro;
 
-public class L14_ReferenceDataType {
-//				< 참조형 타입 >
+public class L14_String {
+//			< 참조형 타입 & String >
 	public static void main(String[] args) {
 /**
  * 자바의 변수 타입은 기본형 타입, 참조형 타입으로 나뉨
@@ -15,6 +15,11 @@ public class L14_ReferenceDataType {
  */
 		String str = new String("Hello");
 //		String 클래스의 인스턴스 생성. str은 생성된 인스턴스 주소를 가르키는 참조형 변수
-//		String("Hello")는 생성자.
+//		new 연산자 뒤 String("Hello")는 생성자.
+		
+//		# String의 특수성 : 유일하게 new 연산자 없이도 인스턴스 생성 가능한 클래스
+		String str1 = "Hello, stadia";
+		
+		
 	}
 }
