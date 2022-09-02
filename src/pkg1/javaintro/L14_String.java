@@ -50,6 +50,6 @@ public class L14_String {
 		} else {
 			System.out.println("str3와 str4는 서로 다른 값을 가짐");
 		}
-//		동위연산자 ==는 String 인스턴스가 같은지 비교하지만 .equals()메서드를 이용하면 값을 비교할 수 있음
+//		동위연산자 '=='는 String 인스턴스가 같은지 비교하지만 .equals()메서드를 이용하면 값을 비교할 수 있음
 	}
 }
