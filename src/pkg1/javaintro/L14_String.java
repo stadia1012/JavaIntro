@@ -33,19 +33,19 @@ public class L14_String {
 		
 //		# 참조 인스턴스 확인
 		if( str1 == str2 ) {			// 같은 인스턴스를 참조
-			System.out.println("같은 인스턴스를 참조");
+			System.out.println("str1과 str2는 같은 인스턴스를 참조");
 		} else {
-			System.out.println("서로 다른 인스턴스를 참조");
+			System.out.println("str1과 str2는 서로 다른 인스턴스를 참조");
 		}
 		
 		if( str3 == str4 ) {			// 서로 다른 인스턴스를 참조
-			System.out.println("같은 인스턴스를 참조");
+			System.out.println("str4과 str4는 ㅓ같은 인스턴스를 참조");
 		} else {
-			System.out.println("서로 다른 인스턴스를 참조");
+			System.out.println("str3과 str4는 서로 다른 인스턴스를 참조");
 		}
 		
-//		# 번외
-		if ( str3.equals(str4) ) {		// str3와 str4는 같은 값을 가짐
+//		# String.equals() 메서드
+		if ( str3.equals(str4) ) {		// str3와 str4는 다른 인스턴스지만 같은 값을 가짐
 			System.out.println("str3와 str4는 같은 값을 가짐");
 		} else {
 			System.out.println("str3와 str4는 서로 다른 값을 가짐");
