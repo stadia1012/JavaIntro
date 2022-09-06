@@ -1,4 +1,5 @@
 package pkg1.javaintro;
+import pkg2.car.MyMethods;
 
 public class L14_String {
 //			< 참조형 타입 & String >
@@ -39,9 +40,9 @@ public class L14_String {
 		}
 		
 		if( str3 == str4 ) {			// 서로 다른 인스턴스를 참조
-			System.out.println("str4과 str4는 ㅓ같은 인스턴스를 참조");
+			System.out.println("str4와 str4는 같은 인스턴스를 참조");
 		} else {
-			System.out.println("str3과 str4는 서로 다른 인스턴스를 참조");
+			System.out.println("str3와 str4는 서로 다른 인스턴스를 참조");
 		}
 		
 //		# String.equals() 메서드
@@ -51,5 +52,29 @@ public class L14_String {
 			System.out.println("str3와 str4는 서로 다른 값을 가짐");
 		}
 //		동위연산자 '=='는 String 인스턴스가 같은지 비교하지만 .equals()메서드를 이용하면 값을 비교할 수 있음
+		
+		
+		
+//		# 참조 타입 VS 원시 타입 -> 메서드의 인자
+		System.out.println( "\n참조 타입 VS 원시 타입" );
+		MyMethods exam1 = new MyMethods();
+		
+//		addOne은 인자에 1을 더하는 메서드
+		int value1 = 10;
+		exam1.addOne( value1 );
+		System.out.println( value1 );  // 10
+		
+		int[] arr1 = {10};
+		exam1.addOne( arr1 );
+		System.out.println( arr1[0] );  // 11
+		
+//		 ->> 기본형 int는 매개변수로 전달될 때, 10이라는 값이 전달됨
+//			 참조형은 주소가 전달되기 때문에 메서드에서 수정 시 주소에 있는 값이 수정됨
+		
+		
+//		# String의 메서드1 - .length()
+		String str5 = "Hello Wolrd";
+		System.out.println( "\n.length() 예시 \n" + str5.length() );  // 11 (공백도 포함)
+		
 	}
 }

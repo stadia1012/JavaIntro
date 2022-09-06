@@ -1,7 +1,6 @@
 package pkg1.javaintro;
-
 import java.util.Arrays;
-import pkg2.car.MyMethods;
+
 
 public class L12_Array {
 //			  < 배열 >
@@ -63,23 +62,5 @@ public class L12_Array {
 		}
 //		위 방법 말고 배열을 출력하는 법 : Arrays.toString()
 		System.out.println("\n" + Arrays.toString(newArr1));  // [A, B, C, D]
-		
-		
-//		# 참조 타입 VS 원시 타입 -> 메서드의 인자
-		System.out.println( "/n참조 타입 VS 원시 타입" );
-		MyMethods exam1 = new MyMethods();
-		
-		int value1 = 10;
-		exam1.addOne( value1 );
-		System.out.println( value1 );  // 10
-		
-		int[] arr1 = {10};
-		exam1.addOne( arr1 );
-		System.out.println( arr1[0] );  // 11
-		
-//		 ->> 기본형 int는 매개변수로 전달될 때, 10이라는 값이 전달됨
-//			 참조형은 주소가 전달되기 때문에 메서드에서 수정 시 주소에 있는 값이 수정됨
-		
-		
 	}
 }
