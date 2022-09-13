@@ -10,4 +10,7 @@ public class L17_VariableScope {
 		System.out.println( value );
 	}
 	
+	public void main(String[] args ) {
+		
+	}
 }
