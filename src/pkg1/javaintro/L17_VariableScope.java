@@ -1,6 +1,7 @@
 package pkg1.javaintro;
 
 public class L17_VariableScope {
+//			< 변수의 범위>
 	int globalScope = 10;
 	
 	public void scopeTest1( int value1 ) {
