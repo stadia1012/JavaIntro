@@ -28,7 +28,7 @@ public class L17_VariableScope {
 		System.out.println( staticVal );  // 15
 		
 /*		static을 사용하면 인스턴스화 하지 않아도 사용할 수 있다
-		static한 메서드 내에서 static하지 않은 필드는 사용할 수 없다 (globalScope 사용 불가) */
+		static 메서드는 static한 필드만 사용할 수 있다 (globalScope 사용 불가) */
 		
 		
 //		# 인스턴스화
