@@ -11,7 +11,7 @@ public class L18_Enum {
 		gender2 = Gender.FEMALE;
 		
 		Gender gender3;
-//		gender3 = "boy";  // 이외값 할당 시 컴파일 오류
+//		gender3 = "boy";  // 지정값 이외 할당 시 컴파일 오류
 	}
 }
 
