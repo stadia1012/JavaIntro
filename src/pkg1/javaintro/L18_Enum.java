@@ -16,5 +16,5 @@ public class L18_Enum {
 }
 
 enum Gender{
-	MALE, FEMALE;
+	MALE, FEMALE; 
 }
