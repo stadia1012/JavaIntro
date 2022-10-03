@@ -33,8 +33,4 @@ public class L15_Class {
 			System.out.println( a + "와 " + b + "를 받았습니다.");
 			return a + b;
 		}
-		
-		public static void main(String[] args) {
-			
-		}	
 }

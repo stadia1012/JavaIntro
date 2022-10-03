@@ -3,8 +3,8 @@ package pkg1.javaintro;
 public class L17_VariableScope {
 //			< 변수의 범위>
 //	기본적으로 변수의 사용 가능 범위는 '선언된 블럭 내'라고 보면 된다
-	int globalScope = 10;
-	static int staticVal = 15;
+	int globalScope = 10;	// 전역(global) 변수
+	static int staticVal = 15;	
 	
 	public void scopeTest1( int value1 ) {
 		int localScope = 20;
@@ -27,8 +27,9 @@ public class L17_VariableScope {
 //		System.out.println( globalScope );
 		System.out.println( staticVal );  // 15
 		
-/*		static을 사용하면 인스턴스화 하지 않아도 사용할 수 있다
-		static 메서드는 static한 필드만 사용할 수 있다 (globalScope 사용 불가) */
+/*		static한 메서드는 인스턴스화 하지 않아도 사용할 수 있다
+		static한 메서드 안에서는 static한 필드만 사용할 수 있다 (globalScope 사용 불가)
+		 -> static한 메서드의 사용 시점에 해당 클래스가 인스턴스화되지 않았을 수도 있기 때문 */
 		
 		
 //		# 인스턴스화
