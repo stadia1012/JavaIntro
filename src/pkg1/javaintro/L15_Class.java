@@ -33,7 +33,8 @@ public class L15_Class {
 			System.out.println( a + "와 " + b + "를 받았습니다.");
 			return a + b;
 		}
-//		main문에서 int a = myClass.method4(5, 10); 로 작성해도 print도 출력이 됨.
 		
-		
+		public static void main(String[] args) {
+			
+		}	
 }

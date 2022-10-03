@@ -8,9 +8,9 @@ public class L14_String {
  * 자바의 변수 타입은 기본형 타입, 참조형 타입으로 나뉨
  * - 기본형 타입
  * 	 논리형 : boolean
- *   문자형 : char
- *   정수형 : byte, short, int, long
- *   실수형 : float, double
+ *   문자형 : char(2)
+ *   정수형 : byte(1), short(2), int(4), long(8)
+ *   실수형 : float(4), double(8)
  * 기본형을 제외하고는 모두 참조형 타입.
  *  -> 클래스, 배열 등도 참조형 타입
  */
@@ -78,7 +78,7 @@ public class L14_String {
 		String str5 = "Hello World";
 		System.out.println( str5.length() );  // 11 (공백도 포함)
 		
-//		# String의 메서드2 - concat()
+//		# String의 메서드2 - concat()  결합
 		System.out.println( "\n# .concat 메서드" );
 		String str6 = ", What's up?";
 		System.out.println( str5.concat(str6) );  // Hello World, What's up?
@@ -86,7 +86,7 @@ public class L14_String {
 		
 		System.out.println( str5 );  // Hello World  -> concat을 사용한다고 원래 값이 바뀌진 않음
 		
-//		# String의 메서드3 - substring()
+//		# String의 메서드3 - substring()  자르기
 		System.out.println( "\n# .substring 메서드" );
 		System.out.println( str5.substring(3) );  // lo World   -> 3부터 끝까지
 		System.out.println( str5.substring(3, 7) );  // lo W    -> 3부터 7전까지
