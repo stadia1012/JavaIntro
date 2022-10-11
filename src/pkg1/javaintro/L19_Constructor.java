@@ -1,5 +1,5 @@
 package pkg1.javaintro;
-import pkg2.car.*;
+import pkg2.methods.*;
 
 public class L19_Constructor {
 //			   < 생성자 >
@@ -14,9 +14,7 @@ public class L19_Constructor {
 	 * 생성자를 명시해주지 않으면 매개변수 없는 생성자가 컴파일 시 자동으로 생성됨.
 	 * 
 	 */
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 		
 		Car car1 = new Car();  // pkg2의 Car는 생성자가 없으므로 매개변수 없는 생성자 자동 생성됨

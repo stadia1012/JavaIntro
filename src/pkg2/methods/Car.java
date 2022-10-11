@@ -1,4 +1,4 @@
-package pkg2.car;
+package pkg2.methods;
 /*	 < Car 클래스 >
  * ver1
 */

@@ -1,5 +1,5 @@
 package pkg1.javaintro;
-import pkg2.car.*;  // pkg2.car.Car 등 class 단위 import
+import pkg2.methods.*;
 
 public class L16_Class_CarExam {
 

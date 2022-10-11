@@ -1,5 +1,5 @@
 package pkg1.javaintro;
-import pkg2.car.MyMethods;
+import pkg2.methods.MyMethods;
 
 public class L14_String {
 //			< 참조형 타입 & String >
