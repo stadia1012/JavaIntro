@@ -14,7 +14,7 @@ public class CarVer3 {
 	}
 	
 	public CarVer3 ( String name ) {
-		this.name = name;
+		this( name, 0 );
 	}
 	
 	public CarVer3 ( String name, int number) {
