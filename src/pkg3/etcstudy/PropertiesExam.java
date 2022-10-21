@@ -13,7 +13,7 @@ public class PropertiesExam {
 		FileInputStream fis = new FileInputStream( resource );
         properties.load(new java.io.BufferedInputStream(fis));
 		
-		String str1 = properties.getProperty( "message" );
+		String str1 = properties.getProperty( "message" );  // String 타입으로 불러옴
 		System.out.println( str1 );  // Hi  
 		
 		System.out.println( properties.getProperty( "message2" ) );  // Hi2
