@@ -17,5 +17,5 @@ public class PropertiesExam {
 		System.out.println( str1 );  // Hi  
 		
 		System.out.println( properties.getProperty( "message2" ) );  // Hi2
-	}
+	} 
 }
