@@ -73,22 +73,28 @@ public class L14_String {
 //			 참조형은 주소가 전달되기 때문에 메서드에서 수정 시 주소에 있는 값이 수정됨 (MyMethods.java 확인)
 		
 		
-//		# String의 메서드1 - length()
-		System.out.println( "\n# .length 메서드" );
+		
+//		## String의 메서드1 - length()
+		System.out.println( "\n# .length() 메서드" );
 		String str5 = "Hello World";
 		System.out.println( str5.length() );  // 11 (공백도 포함)
 		
-//		# String의 메서드2 - concat()  결합
-		System.out.println( "\n# .concat 메서드" );
+//		## String의 메서드2 - concat()  결합
+		System.out.println( "\n# .concat() 메서드" );
 		String str6 = ", What's up?";
 		System.out.println( str5.concat(str6) );  // Hello World, What's up?
 		System.out.println( str5.concat( ", How are you?") );  // Hello World, How are you?
 		
 		System.out.println( str5 );  // Hello World  -> concat을 사용한다고 원래 값이 바뀌진 않음
 		
-//		# String의 메서드3 - substring()  자르기
-		System.out.println( "\n# .substring 메서드" );
+//		## String의 메서드3 - substring()  자르기
+		System.out.println( "\n# .substring() 메서드" );
 		System.out.println( str5.substring(3) );  // lo World   -> 3부터 끝까지
 		System.out.println( str5.substring(3, 7) );  // lo W    -> 3부터 7전까지
+		
+//		## String의 메서드4 - startsWith()  시작 부분 비교해 Boolean 리턴  // endsWith 도 있음
+		System.out.println( "\n# .startsWith() 메서드" );
+		System.out.println( str5.startsWith("Hello") );  // true
+		System.out.println( str5.endsWith("World") );  // true
 	}
 }

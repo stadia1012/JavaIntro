@@ -6,6 +6,11 @@ public class CarVer3 {
 	public String name;
 	public int number;
 	
+	public void run() {
+		System.out.println( "달립니다.");
+	}
+	
+	
 //	# 생성자 오버로딩
 	public CarVer3 () {
 //		this.name = "이름없음";
