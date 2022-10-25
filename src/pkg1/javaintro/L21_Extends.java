@@ -2,7 +2,7 @@ package pkg1.javaintro;
 import pkg2.methods.*;
 
 public class L21_Extends {
-
+//			  < 상속 >
 	public static void main(String[] args) {
 		
 		Bus myBus = new Bus();
