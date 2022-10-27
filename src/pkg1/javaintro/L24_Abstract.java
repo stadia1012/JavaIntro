@@ -2,7 +2,7 @@ package pkg1.javaintro;
 import pkg2.methods.*;
 
 public class L24_Abstract {
-
+//			< 추상클래스 >   -> pkg2의 Bird, Duck 클래스 사용
 	public static void main(String[] args) {
 		
 		Duck d1 = new Duck( "오리1" );  // 생성자를 통한 name 입력
