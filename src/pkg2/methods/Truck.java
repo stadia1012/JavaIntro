@@ -8,4 +8,8 @@ public class Truck extends CarVer4 {
 	public void run() {
 		System.out.println( "트럭이 달립니다.");
 	}
+	
+	public void carRun() {
+		super.run();
+	}
 }
