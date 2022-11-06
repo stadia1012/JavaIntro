@@ -24,6 +24,6 @@ public class L25_Super {
 		t1.run();  // 트럭이 달립니다.  -> run()이 오버라이딩 되어 Truck 안에 메서드만 호출
 		
 		t1.carRun();  // 달립니다.  -> super.run()이므로 CarVer4의 run() 호출됨
-		
+		 
 	}
 }
