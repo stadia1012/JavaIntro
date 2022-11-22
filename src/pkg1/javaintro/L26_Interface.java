@@ -9,7 +9,7 @@ public class L26_Interface {
 	- 인터페이스의 모든 메서드는 추상메서드(public abstract)로 선언해야됨. 멤버 변수는 상수(public static final) 정의 가능
   	  (추상메서드와 상수 표시는 생략해도 컴파일 과정에서 자동 생성)
 	- interface는 다중 상속 가능
-	- JDK 1.8부터 default methods 사용 가능 -> 인터페이스에 메서드 추가할 시 모든 구현체에 코드 작성 과정을 줄이기 위해 추가.
+	- JDK 1.8부터 default methods 사용 가능 -> 인터페이스에 메서드 추가할 시 모든 구현체에 코드 작성해야하는 과정을 줄이기 위해 추가.
 	- 인터페이스의 메소드를 하나라도 구현하지 않는다면 해당 구현 클래스는 추상클래스가 됨
 	
 	* default 메소드와 interface 내 static 메소드는 JDK 8부터 가능. 여기선 구현 불가.

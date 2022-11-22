@@ -1,4 +1,3 @@
-
 package pkg2.methods;
 
 public class InnerExam {	
