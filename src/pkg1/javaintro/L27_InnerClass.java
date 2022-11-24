@@ -19,5 +19,8 @@ public class L27_InnerClass {
 		System.out.println( cal2.value );  // 1
 		cal2.plus();
 		System.out.println( cal2.value );  // 2  -> static은 동일한 변수 공유
+		
+		
+//		# 3.
 	}
 }
