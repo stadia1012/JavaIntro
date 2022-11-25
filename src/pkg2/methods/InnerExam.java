@@ -7,6 +7,6 @@ public class InnerExam {
 		public void plus() {
 			value++;
 		}
-	
 	}
+	
 }
