@@ -1,7 +1,5 @@
 package pkg1.javaintro;
 
-import java.awt.Image;
-
 public class L28_Exception {
 //			< Exception / throws >
 //	- 오류 발생 시 프로그램이 강제종료 되지만 Exception을 사용하면 계속 실행됨
