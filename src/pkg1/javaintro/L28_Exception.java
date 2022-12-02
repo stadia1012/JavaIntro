@@ -45,5 +45,5 @@ public class L28_Exception {
 		public static int divide( int i, int j ) throws ArithmeticException{
 			int k = i / j;
 			return k;
-		}    
+		}     
 }    
