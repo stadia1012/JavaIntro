@@ -1,4 +1,5 @@
 package pkg1.javaintro;
+// 참조 : https://bvc12.tistory.com/196
 
 public class L28_Exception {
 //			< Exception / throws >
@@ -24,15 +25,25 @@ public class L28_Exception {
 		int i2 = 10;
 		int j2 = 0;
 		try{
-			int k = divide(i2, j2);
+			int k = divide(i2, j2);  // divide는 하기에 선언
 			System.out.println(k);
 		} catch(ArithmeticException ex2) {
 			System.out.println( "오류 : 0으로 나눌 수 없음");
+		}
+		
+		
+//		# throw : 예외 강제 발생
+		System.out.println("\n# throw");
+		try {
+			throw new Exception();
+		} catch (Exception e) {
+			System.out.println("예외 강제 발생");  // 예외 강제 발생
+			System.out.println( e.toString() );  // java.lang.Exception
 		}
 	}
 	
 		public static int divide( int i, int j ) throws ArithmeticException{
 			int k = i / j;
 			return k;
-		} 
+		}
 }
