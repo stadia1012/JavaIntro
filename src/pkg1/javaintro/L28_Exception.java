@@ -46,4 +46,4 @@ public class L28_Exception {
 			int k = i / j;
 			return k;
 		} 
-} 
+}  
