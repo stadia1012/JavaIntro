@@ -96,5 +96,24 @@ public class L14_String {
 		System.out.println( "\n# .startsWith() 메서드" );
 		System.out.println( str5.startsWith("Hello") );  // true
 		System.out.println( str5.endsWith("World") );  // true
+		
+//		## Object의 값을 String 변환 - toString(), String.valueOf()
+//		  toString은 대상 값이 null이면 NPE(NullPointerException) 발생
+//		  String.valueOf()는 파리미터가 null이면 "null" 문자열로 처리
+//		    -> String.valueOf() 사용 권장.
+		System.out.println( "\n# toString(), String.valueOf()" );
+		Object dd = new Object();
+		dd = null;
+		try {
+			System.out.println( dd.toString() );
+		} catch ( NullPointerException e ) {
+			System.out.println( "toString의 NPE 발생" );  // toString의 NPE 발생
+		}
+		try {
+			System.out.println( String.valueOf(dd) ); // null
+		} catch ( NullPointerException e ) {
+			System.out.println( "valueOf()의 NPE 발생" );
+		}
+		
 	}
 }
